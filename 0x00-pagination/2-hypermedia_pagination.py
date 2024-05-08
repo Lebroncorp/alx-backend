@@ -14,7 +14,7 @@ from typing import Dict, List, Tuple
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
     """
     this method takes two args and returns tuple of size two
-    containing the start and end indices corresponding to 
+    containing the start and end indices corresponding to
     he range of indices to return in a list
     for those particular pagination parameters
     Args:
